@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Helvetica, sans-serif;
+    font-family: 'Asimov', sans-serif;
    
 }
 
@@ -31,24 +31,25 @@
 }
 
 .align_text{
-    margin: 50px;
-    padding: 22px;
+    margin-left: 50px;
+    padding: 10px;
+    vertical-align: 2px;
+    line-height: 40px;
+    
 }
 .container_main {
     width: 900px;
-    height: 500px;
     background-color: white;
     margin: 5px auto;
     border-radius: 5px;
 }
 .bg {
     width: 1230px;
-    height: 600px;
     background-color:#F6F8F9;
     display: inline-block;
 }
 
-.task{
+.button{
 background-color: #47ADF1;
 color: white;
 padding: 8px;
@@ -56,9 +57,91 @@ border-radius: 5px;
 
 }
 
-.section {
+.button_section {
     color: #CBD1D5;
     padding: 6px;
     border-radius: 5px;
-    border: 2px solid #CBD1D5;
+    border: 1px solid #CBD1D5;
 }
+
+.task {
+    font-size: 20px;
+    ;
+    display: block;
+}
+
+.icon_v {
+    font-size: 10px;
+    color: green;
+    border: 1px solid green;
+    padding: 3px;
+    border-radius: 50%;
+    
+}
+
+.icon_x {
+    font-size: 10px;
+    color: red;
+    border: 1px solid red;
+    padding: 3px;
+    border-radius: 50%;
+    
+}
+
+.text {
+    margin: 5px;
+}
+
+.editorial_blue {
+    font-size: 10px;
+    color: white;
+    background-color: #47ADF1;
+    padding: 5px;
+    border-radius: 20px;
+
+}
+
+.editorial_purple {
+    font-size: 10px;
+    color: white;
+    background-color: #9C72E4;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.editorial_green {
+    font-size: 10px;
+    color: white;
+    background-color: #64C0A9;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.editorial_orange {
+    font-size: 10px;
+    color: white;
+    background-color: #F29E33;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.editorial_rose {
+    font-size: 10px;
+    color: white;
+    background-color: #D863A1;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.editorial_lime {
+    font-size: 10px;
+    color: white;
+    background-color: #B0C926;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.line {
+    display: block;
+}
+
