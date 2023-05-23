@@ -25,14 +25,21 @@
     width: 900px;
     height: 60px;
     background-color: white;
-    margin: 50px auto 2px;
+    margin: 50px auto 1px;
+    border-radius: 5px;
     
+}
+
+.align_text{
+    margin: 50px;
+    padding: 22px;
 }
 .container_main {
     width: 900px;
     height: 500px;
     background-color: white;
     margin: 5px auto;
+    border-radius: 5px;
 }
 .bg {
     width: 1230px;
@@ -42,5 +49,16 @@
 }
 
 .task{
+background-color: #47ADF1;
+color: white;
+padding: 8px;
+border-radius: 5px;
 
+}
+
+.section {
+    color: #CBD1D5;
+    padding: 6px;
+    border-radius: 5px;
+    border: 2px solid #CBD1D5;
 }
