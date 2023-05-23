@@ -21,4 +21,26 @@
     vertical-align:middle;
 }
 
+.container_title {
+    width: 900px;
+    height: 60px;
+    background-color: white;
+    margin: 50px auto 2px;
+    
+}
+.container_main {
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    margin: 5px auto;
+}
+.bg {
+    width: 1230px;
+    height: 600px;
+    background-color:#F6F8F9;
+    display: inline-block;
+}
 
+.task{
+
+}
